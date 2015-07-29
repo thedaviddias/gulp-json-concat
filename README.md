@@ -15,10 +15,37 @@ $ npm install --save-dev gulp-json-concat
 
 ## Usage
 
+var gulp = require('gulp');
+var jsonConcat = require('gulp-json-concat');
 
+gulp.task('json', function () {
+  return gulp.src('db/**/*.json')
+    .pipe(jsonConcat('db.json',function(data){
+      return new Buffer(JSON.stringify(data));
+    }))
+    .pipe(gulp.dest('json'));
+});
+
+## API
+
+### jsonConcat(fileName, processor)
+
+#### fileName
+Type: `String`
+
+The output filename.
+
+#### processor
+Type: `Function`
+
+The function that will be called with the dictionary containing all the data from the processes JSON files, where the keys of the dictionary, would be the names of the files (sans the '.json' postfix).
+
+The function should return a new `Buffer` that would be writter to the output file.
 
 ## Changelog
 
+### 0.0.4 Add jsonlint
+* Analyse json files and show exactly wehre is the error
 ### 0.0.1 Initial release
 * initial code
 

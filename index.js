@@ -3,8 +3,11 @@
 var through = require('through');
 var path = require('path');
 var gutil = require('gulp-util');
+var jsonlint = require("jsonlint");
+
 var PluginError = gutil.PluginError;
 var File = gutil.File;
+var c = gutil.colors;
 
 module.exports = function (fileName, converter) {
   if (!fileName) {
@@ -20,6 +23,16 @@ module.exports = function (fileName, converter) {
   var skipConversion = false;
 
   function bufferContents(file) {
+
+    try {
+      jsonlint.parse(String(file.contents));
+    }
+    catch (err) {
+      gutil.log(c.yellow('Error on file ') + file.path);
+      gutil.log(c.red(err.message));
+      gutil.log(c.yellow('Your JSON file was not generated. Please correct your JSON file.'));
+      return false;
+    }
 
     if (!firstFile) {
       firstFile = file;
