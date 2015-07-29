@@ -48,6 +48,7 @@ The function should return a new `Buffer` that would be writter to the output fi
 
 ### 0.0.4 Add jsonlint
 * Analyse json files and show exactly wehre is the error
+
 ### 0.0.1 Initial release
 * initial code
 
