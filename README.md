@@ -15,32 +15,7 @@ $ npm install --save-dev gulp-json-concat
 
 ## Usage
 
-```js
-var gulp = require('gulp');
-var jsonConcat = require('gulp-json-concat');
 
-gulp.task('sass', function () {
-  return gulp.src('sass/global.scss')
-    .pipe(checkGem({gemfile: 'scss-lint'},
-      scsslint()
-    ))
-    .pipe(sass())
-    .pipe(gulp.dest('dist'));
-});
-```
-
-
-## API
-
-### gemfile
-
-- Type: `String`
-
-```js
-checkgem({
-    gemfile: 'scss-lint'
-});
-```
 
 ## Changelog
 
