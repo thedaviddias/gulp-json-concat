@@ -1,6 +1,6 @@
 {
   "name": "gulp-json-concat",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Combine several JSON files with Gulp",
   "license": "MIT",
   "repository": "https://github.com/daviddiasfront/gulp-json-concat",
