@@ -15,6 +15,7 @@ $ npm install --save-dev gulp-json-concat
 
 ## Usage
 
+```js
 var gulp = require('gulp');
 var jsonConcat = require('gulp-json-concat');
 
@@ -25,6 +26,7 @@ gulp.task('json', function () {
     }))
     .pipe(gulp.dest('json'));
 });
+```
 
 ## API
 
