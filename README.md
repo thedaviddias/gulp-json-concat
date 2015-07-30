@@ -5,6 +5,8 @@
 
 > Combine several JSON files with Gulp
 
+gulp-json-concat is a fork of [gulp-jsoncombine](https://www.npmjs.com/package/gulp-jsoncombine) with new few options.
+
 ## Install
 
 [![NPM](https://nodei.co/npm/gulp-json-concat.png?compact=true)](https://www.npmjs.org/package/gulp-json-concat)
@@ -15,6 +17,8 @@ $ npm install --save-dev gulp-json-concat
 
 ## Usage
 
+You can combine json files that are in subfolders. The json generated will remove the name of these folders to keep only the name of the file.
+
 ```js
 var gulp = require('gulp');
 var jsonConcat = require('gulp-json-concat');
@@ -24,7 +28,7 @@ gulp.task('json', function () {
     .pipe(jsonConcat('db.json',function(data){
       return new Buffer(JSON.stringify(data));
     }))
-    .pipe(gulp.dest('json'));
+    .pipe(gulp.dest('dist/json'));
 });
 ```
 
