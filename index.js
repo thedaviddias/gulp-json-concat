@@ -60,7 +60,7 @@ module.exports = function (fileName, converter) {
         })
       }
 
-      data[file.relative.substr(0,file.relative.length-5)] = JSON.parse(file.contents.toString());
+      data[path.basename(file.relative, ".json")] = JSON.parse(file.contents.toString());
 
     } catch (err) {
       skipConversion = true;
