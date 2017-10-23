@@ -1,6 +1,6 @@
 # [gulp](https://gulpjs.com)-json-concat
-[![Build Status](https://travis-ci.org/daviddiasfront/gulp-json-concat.svg?branch=master)](https://travis-ci.org/daviddiasfront/gulp-json-concat)
-[![Dependencies](https://david-dm.org/daviddiasfront/gulp-json-concat.png)](https://david-dm.org/daviddiasfront/gulp-json-concat)
+[![Build Status](https://travis-ci.org/thedaviddias/gulp-json-concat.svg?branch=master)](https://travis-ci.org/thedaviddias/gulp-json-concat)
+[![Dependencies](https://david-dm.org/thedaviddias/gulp-json-concat.png)](https://david-dm.org/thedaviddias/gulp-json-concat)
 [![npm module downloads per month](http://img.shields.io/npm/dm/gulp-json-concat.svg)](https://www.npmjs.org/package/gulp-json-concat)
 
 > Combine several JSON files with Gulp
