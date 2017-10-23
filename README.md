@@ -58,4 +58,4 @@ The function should return a new `Buffer` that would be writter to the output fi
 
 ## License
 
-MIT © 2015 [David Dias](http://www.david-dias.com)
+MIT © 2017 [David Dias](http://thedaviddias.me)
