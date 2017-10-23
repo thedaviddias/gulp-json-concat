@@ -1,13 +1,13 @@
 {
   "name": "gulp-json-concat",
   "version": "0.1.0",
-  "description": "Combine several JSON files with Gulp",
+  "description": "⚡️ Combine several JSON files into one with Gulp",
   "license": "MIT",
-  "repository": "https://github.com/daviddiasfront/gulp-json-concat",
+  "repository": "https://github.com/thedaviddias/gulp-json-concat",
   "author": {
     "name": "David Dias",
-    "email": "daviddiasfront@gmail.com",
-    "url": "https://www.david-dias.com"
+    "email": "thedaviddias@gmail.com",
+    "url": "http://thedaviddias.me"
   },
   "engines": {
     "node": ">=0.10.0"
@@ -19,9 +19,13 @@
     "index.js"
   ],
   "keywords": [
-    "gulpplugin",
+		"gulp",
+		"gulpplugin",
+		"json-concat",
     "json",
-    "concat"
+		"concatenation",
+		"concat",
+		"json-files"
   ],
   "dependencies": {
     "gulp-util": "^3.0.8",

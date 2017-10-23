@@ -1,6 +1,8 @@
 # [gulp](https://gulpjs.com)-json-concat
 [![Build Status](https://travis-ci.org/thedaviddias/gulp-json-concat.svg?branch=master)](https://travis-ci.org/thedaviddias/gulp-json-concat)
+[![Coverage Status](https://coveralls.io/repos/github/thedaviddias/gulp-json-concat/badge.svg?branch=master)](https://coveralls.io/github/thedaviddias/gulp-json-concat?branch=master)
 [![Dependencies](https://david-dm.org/thedaviddias/gulp-json-concat.png)](https://david-dm.org/thedaviddias/gulp-json-concat)
+[![Known Vulnerabilities](https://snyk.io/test/github/thedaviddias/gulp-json-concat/badge.svg)](https://snyk.io/test/github/thedaviddias/gulp-json-concat)
 [![npm module downloads per month](http://img.shields.io/npm/dm/gulp-json-concat.svg)](https://www.npmjs.org/package/gulp-json-concat)
 
 > Combine several JSON files with Gulp
@@ -49,6 +51,12 @@ The function that will be called with the dictionary containing all the data fro
 The function should return a new `Buffer` that would be writter to the output file.
 
 ## Changelog
+
+### 0.1.1 Update and corrections
+* Update dependencies
+* Fix relative path + filename on macOs (thanks to @cmandlbaur)
+* Update travis.yml, editorconfig and package.json
+* Add new badges (Coveralls, Snyk)
 
 ### 0.0.4 Add jsonlint
 * Analyse json files and show exactly wehre is the error
