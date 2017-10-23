@@ -24,14 +24,14 @@
     "concat"
   ],
   "dependencies": {
-    "gulp-util": "^3.0.4",
+    "gulp-util": "^3.0.8",
     "jsonlint": "^1.6.2",
     "through": "^2.3.8"
   },
   "devDependencies": {
-    "event-stream": "*",
-    "jshint": "^2.7.0",
-    "mocha": "^2.2.5",
-    "should": "^6.0.3"
+    "event-stream": "^3.3.4",
+    "jshint": "^2.9.5",
+    "mocha": "^4.0.1",
+    "should": "^13.1.2"
   }
 }
