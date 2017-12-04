@@ -1,4 +1,6 @@
 # [gulp](https://gulpjs.com)-json-concat
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/thedaviddias/gulp-json-concat.svg)](https://greenkeeper.io/)
 [![Build Status](https://travis-ci.org/thedaviddias/gulp-json-concat.svg?branch=master)](https://travis-ci.org/thedaviddias/gulp-json-concat)
 [![Coverage Status](https://coveralls.io/repos/github/thedaviddias/gulp-json-concat/badge.svg?branch=master)](https://coveralls.io/github/thedaviddias/gulp-json-concat?branch=master)
 [![Dependencies](https://david-dm.org/thedaviddias/gulp-json-concat.png)](https://david-dm.org/thedaviddias/gulp-json-concat)
