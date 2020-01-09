@@ -7,10 +7,10 @@
   "author": {
     "name": "David Dias",
     "email": "thedaviddias@gmail.com",
-    "url": "http://thedaviddias.me"
+    "url": "http://thedaviddias.dev"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=12.13.1"
   },
   "scripts": {
     "test": ""
@@ -19,23 +19,23 @@
     "index.js"
   ],
   "keywords": [
-		"gulp",
-		"gulpplugin",
-		"json-concat",
+    "gulp",
+    "gulpplugin",
+    "json-concat",
     "json",
-		"concatenation",
-		"concat",
-		"json-files"
+    "concatenation",
+    "concat",
+    "json-files"
   ],
   "dependencies": {
     "gulp-util": "^3.0.8",
-    "jsonlint": "^1.6.2",
+    "jsonlint": "^1.6.3",
     "through": "^2.3.8"
   },
   "devDependencies": {
-    "event-stream": "^3.3.4",
-    "jshint": "^2.9.5",
-    "mocha": "^4.0.1",
-    "should": "^13.1.2"
+    "event-stream": "^4.0.1",
+    "jshint": "^2.10.3",
+    "mocha": "^7.0.0",
+    "should": "^13.2.3"
   }
 }

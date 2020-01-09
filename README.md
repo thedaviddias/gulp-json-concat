@@ -1,6 +1,5 @@
 # [gulp](https://gulpjs.com)-json-concat
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/thedaviddias/gulp-json-concat.svg)](https://greenkeeper.io/)
 [![Build Status](https://travis-ci.org/thedaviddias/gulp-json-concat.svg?branch=master)](https://travis-ci.org/thedaviddias/gulp-json-concat)
 [![Coverage Status](https://coveralls.io/repos/github/thedaviddias/gulp-json-concat/badge.svg?branch=master)](https://coveralls.io/github/thedaviddias/gulp-json-concat?branch=master)
 [![Dependencies](https://david-dm.org/thedaviddias/gulp-json-concat.png)](https://david-dm.org/thedaviddias/gulp-json-concat)
@@ -53,6 +52,8 @@ The function that will be called with the dictionary containing all the data fro
 The function should return a new `Buffer` that would be writter to the output file.
 
 ## Changelog
+### 0.2.0 Update
+* Update dependencies
 
 ### 0.1.1 Update and corrections
 * Update dependencies
