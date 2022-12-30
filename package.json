@@ -35,7 +35,7 @@
   "devDependencies": {
     "event-stream": "^4.0.1",
     "jshint": "^2.10.3",
-    "mocha": "^7.0.0",
+    "mocha": "^10.2.0",
     "should": "^13.2.3"
   }
 }
